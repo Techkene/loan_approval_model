@@ -123,12 +123,11 @@ pip install -r requirements.txt
 
 | Model               | Accuracy | F1-Score | ROC AUC |
 |---------------------|----------|----------|---------|
-| Logistic Regression | XX.XX%   | XX.XX    | XX.XX   |
-| Random Forest       | XX.XX%   | XX.XX    | XX.XX   |
-| XGBoost             | XX.XX%   | XX.XX    | XX.XX   |
-| **Stacking Ensemble** | **XX.XX%** | **XX.XX** | **XX.XX** |
+| Logistic Regression | 61%   | 25%    | 62%   |
+| Random Forest       | 86%   | 84%    | 97.6%   |
+| XGBoost             | 86%   | 83%    | 97.5%   |
+| **Stacking Ensemble** | **94%** | **88%** | **97.7** |
 
-> Replace "XX.XX" with your actual results after model training.
 
 ---
 
@@ -148,16 +147,6 @@ This project represents a real-world financial risk assessment scenario, balanci
 - SHAP/LIME explainability
 - Deployment via API
 - Continuous fairness auditing
-
----
-
-##  Hackathon Readiness Checklist
-
-- [x] Reusable code modules
-- [x] Interpretable EDA and visual storytelling
-- [x] Fairness and bias analysis
-- [x] Ensemble modeling
-- [x] Clean documentation
 
 ---
 
